@@ -26,7 +26,7 @@ value_n		DWORD	?					; [3 .. 12]
 value_r		DWORD	?					; [1 .. n]
 value_label_1	BYTE		"Number of items n: ", 0
 value_label_2	BYTE		"Number in set r: ", 0
-prompt_1		BYTE		"How many combinations of size r can be made from n items? ", 0
+prompt_1	BYTE		"How many combinations of size r can be made from n items? ", 0
 user_answer	DWORD	?
 result		DWORD	?
 current_val	DWORD	?
